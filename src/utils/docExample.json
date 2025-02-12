@@ -1,0 +1,21 @@
+{
+  "id": "document-1",
+  "title": "My First Note",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the first paragraph of my note."
+    },
+    {
+      "type": "list-unorder-dot",
+      "items": ["First item", "Second item", "Third item"]
+    }
+  ],
+  "createdAt": 1698416432000,
+  "updatedAt": 1698417432000
+}
