@@ -1,0 +1,55 @@
+.note_root {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 15% 1fr 15%;
+  grid-template-rows: auto 1fr;
+}
+
+.note_top {
+  grid-column: 2;
+  padding-top: 105px;
+  height: fit-content;
+}
+
+.note_title {
+  width: 100%;
+}
+
+.note_title_content {
+  font-weight: 500;
+  color: black;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  outline: none;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.note_title_content.placeholder::after {
+  opacity: 0.2;
+  content: "Add a title";
+  pointer-events: none;
+}
+
+.note_content {
+  grid-column: 2;
+  margin-top: 20px;
+}
+
+.note_paragraph {
+  width: 100%;
+  max-width: 100%;
+  outline: none;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  font-weight: 400;
+}
+
+.note_paragraph.placeholder::after {
+  opacity: 0.2;
+  content: "Write something...";
+  pointer-events: none;
+}
