@@ -1,0 +1,18 @@
+.home_root {
+  flex-grow: 1;
+  position: relative;
+  padding: 65px 50px;
+}
+
+.home_top {
+  h1 {
+    margin: 0;
+    font-weight: 600;
+    color: #241611;
+  }
+
+  p {
+    margin: 5px 0px 0px 0px;
+    color: rgb(95, 94, 91);
+  }
+}
